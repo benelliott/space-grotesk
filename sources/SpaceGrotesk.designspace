@@ -3,8 +3,9 @@
   <axes>
     <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
       <map input="300" output="300"/>
-      <map input="400" output="416"/>
-      <map input="500" output="560"/>
+      <map input="400" output="400"/>
+      <map input="500" output="500"/>
+      <map input="600" output="600"/>
       <map input="700" output="700"/>
     </axis>
   </axes>
@@ -34,14 +35,21 @@
     </instance>
     <instance name="Space Grotesk Regular" familyname="Space Grotesk" stylename="Regular" filename="../instance_ufo/SpaceGrotesk-Regular.ufo" stylemapfamilyname="Space Grotesk" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="416"/>
+        <dimension name="Weight" xvalue="400"/>
       </location>
       <kerning/>
       <info/>
     </instance>
     <instance name="Space Grotesk Medium" familyname="Space Grotesk" stylename="Medium" filename="../instance_ufo/SpaceGrotesk-Medium.ufo" stylemapfamilyname="Space Grotesk Medium" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="560"/>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Space Grotesk SemiBold" familyname="Space Grotesk" stylename="SemiBold" filename="../instance_ufo/SpaceGrotesk-SemiBold.ufo" stylemapfamilyname="Space Grotesk SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
       </location>
       <kerning/>
       <info/>
